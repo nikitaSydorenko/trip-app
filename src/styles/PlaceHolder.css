@@ -1,0 +1,50 @@
+.containerPlaceHolder{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .containerPlaceHolder{
+        display: flex;
+        flex-direction: column;
+
+        height: 1024px;
+    }
+
+    .containerPlaceHolder img{
+
+
+
+    }
+    .title{
+        margin-right: 40px;
+        margin-top: 43px;
+        width: 240px;
+        height: 34px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .content{
+        margin-top: 40px;
+        width: 238px;
+        height: 368px;
+        margin-right: 40px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #63666A;
+
+    }
+
+}
+
+
